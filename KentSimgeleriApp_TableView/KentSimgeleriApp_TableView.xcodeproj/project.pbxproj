@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38C0E4B5298BC55E0056CBA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4B4298BC55E0056CBA5 /* AppDelegate.swift */; };
+		38C0E4B7298BC55E0056CBA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4B6298BC55E0056CBA5 /* SceneDelegate.swift */; };
+		38C0E4B9298BC55E0056CBA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4B8298BC55E0056CBA5 /* ViewController.swift */; };
+		38C0E4BC298BC55E0056CBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C0E4BA298BC55E0056CBA5 /* Main.storyboard */; };
+		38C0E4BE298BC55F0056CBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C0E4BD298BC55F0056CBA5 /* Assets.xcassets */; };
+		38C0E4C1298BC55F0056CBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C0E4BF298BC55F0056CBA5 /* LaunchScreen.storyboard */; };
+		38C0E4CC298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4CB298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.swift */; };
+		38C0E4D6298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4D5298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.swift */; };
+		38C0E4D8298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4D7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITestsLaunchTests.swift */; };
+		38C0E4E5298EACFF0056CBA5 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4E4298EACFF0056CBA5 /* DetailsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38C0E4C8298BC55F0056CBA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C0E4A9298BC55E0056CBA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C0E4B0298BC55E0056CBA5;
+			remoteInfo = KentSimgeleriApp_TableView;
+		};
+		38C0E4D2298BC55F0056CBA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C0E4A9298BC55E0056CBA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C0E4B0298BC55E0056CBA5;
+			remoteInfo = KentSimgeleriApp_TableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38C0E4B1298BC55E0056CBA5 /* KentSimgeleriApp_TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KentSimgeleriApp_TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C0E4B4298BC55E0056CBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38C0E4B6298BC55E0056CBA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38C0E4B8298BC55E0056CBA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38C0E4BB298BC55E0056CBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38C0E4BD298BC55F0056CBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38C0E4C0298BC55F0056CBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38C0E4C2298BC55F0056CBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C0E4C7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KentSimgeleriApp_TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C0E4CB298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KentSimgeleriApp_TableViewTests.swift; sourceTree = "<group>"; };
+		38C0E4D1298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KentSimgeleriApp_TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C0E4D5298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KentSimgeleriApp_TableViewUITests.swift; sourceTree = "<group>"; };
+		38C0E4D7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KentSimgeleriApp_TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38C0E4E4298EACFF0056CBA5 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C0E4AE298BC55E0056CBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4C4298BC55F0056CBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4CE298BC55F0056CBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C0E4A8298BC55E0056CBA5 = {
+			isa = PBXGroup;
+			children = (
+				38C0E4B3298BC55E0056CBA5 /* KentSimgeleriApp_TableView */,
+				38C0E4CA298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests */,
+				38C0E4D4298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests */,
+				38C0E4B2298BC55E0056CBA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38C0E4B2298BC55E0056CBA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4B1298BC55E0056CBA5 /* KentSimgeleriApp_TableView.app */,
+				38C0E4C7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.xctest */,
+				38C0E4D1298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C0E4B3298BC55E0056CBA5 /* KentSimgeleriApp_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4B4298BC55E0056CBA5 /* AppDelegate.swift */,
+				38C0E4B6298BC55E0056CBA5 /* SceneDelegate.swift */,
+				38C0E4B8298BC55E0056CBA5 /* ViewController.swift */,
+				38C0E4BA298BC55E0056CBA5 /* Main.storyboard */,
+				38C0E4BD298BC55F0056CBA5 /* Assets.xcassets */,
+				38C0E4BF298BC55F0056CBA5 /* LaunchScreen.storyboard */,
+				38C0E4C2298BC55F0056CBA5 /* Info.plist */,
+				38C0E4E4298EACFF0056CBA5 /* DetailsVC.swift */,
+			);
+			path = KentSimgeleriApp_TableView;
+			sourceTree = "<group>";
+		};
+		38C0E4CA298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4CB298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.swift */,
+			);
+			path = KentSimgeleriApp_TableViewTests;
+			sourceTree = "<group>";
+		};
+		38C0E4D4298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4D5298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.swift */,
+				38C0E4D7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITestsLaunchTests.swift */,
+			);
+			path = KentSimgeleriApp_TableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C0E4B0298BC55E0056CBA5 /* KentSimgeleriApp_TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C0E4DB298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableView" */;
+			buildPhases = (
+				38C0E4AD298BC55E0056CBA5 /* Sources */,
+				38C0E4AE298BC55E0056CBA5 /* Frameworks */,
+				38C0E4AF298BC55E0056CBA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KentSimgeleriApp_TableView;
+			productName = KentSimgeleriApp_TableView;
+			productReference = 38C0E4B1298BC55E0056CBA5 /* KentSimgeleriApp_TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38C0E4C6298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C0E4DE298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableViewTests" */;
+			buildPhases = (
+				38C0E4C3298BC55F0056CBA5 /* Sources */,
+				38C0E4C4298BC55F0056CBA5 /* Frameworks */,
+				38C0E4C5298BC55F0056CBA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C0E4C9298BC55F0056CBA5 /* PBXTargetDependency */,
+			);
+			name = KentSimgeleriApp_TableViewTests;
+			productName = KentSimgeleriApp_TableViewTests;
+			productReference = 38C0E4C7298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38C0E4D0298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C0E4E1298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableViewUITests" */;
+			buildPhases = (
+				38C0E4CD298BC55F0056CBA5 /* Sources */,
+				38C0E4CE298BC55F0056CBA5 /* Frameworks */,
+				38C0E4CF298BC55F0056CBA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C0E4D3298BC55F0056CBA5 /* PBXTargetDependency */,
+			);
+			name = KentSimgeleriApp_TableViewUITests;
+			productName = KentSimgeleriApp_TableViewUITests;
+			productReference = 38C0E4D1298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38C0E4A9298BC55E0056CBA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					38C0E4B0298BC55E0056CBA5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					38C0E4C6298BC55F0056CBA5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 38C0E4B0298BC55E0056CBA5;
+					};
+					38C0E4D0298BC55F0056CBA5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 38C0E4B0298BC55E0056CBA5;
+					};
+				};
+			};
+			buildConfigurationList = 38C0E4AC298BC55E0056CBA5 /* Build configuration list for PBXProject "KentSimgeleriApp_TableView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38C0E4A8298BC55E0056CBA5;
+			productRefGroup = 38C0E4B2298BC55E0056CBA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C0E4B0298BC55E0056CBA5 /* KentSimgeleriApp_TableView */,
+				38C0E4C6298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests */,
+				38C0E4D0298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C0E4AF298BC55E0056CBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C0E4C1298BC55F0056CBA5 /* LaunchScreen.storyboard in Resources */,
+				38C0E4BE298BC55F0056CBA5 /* Assets.xcassets in Resources */,
+				38C0E4BC298BC55E0056CBA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4C5298BC55F0056CBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4CF298BC55F0056CBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C0E4AD298BC55E0056CBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C0E4B9298BC55E0056CBA5 /* ViewController.swift in Sources */,
+				38C0E4E5298EACFF0056CBA5 /* DetailsVC.swift in Sources */,
+				38C0E4B5298BC55E0056CBA5 /* AppDelegate.swift in Sources */,
+				38C0E4B7298BC55E0056CBA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4C3298BC55F0056CBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C0E4CC298BC55F0056CBA5 /* KentSimgeleriApp_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C0E4CD298BC55F0056CBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C0E4D8298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITestsLaunchTests.swift in Sources */,
+				38C0E4D6298BC55F0056CBA5 /* KentSimgeleriApp_TableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38C0E4C9298BC55F0056CBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C0E4B0298BC55E0056CBA5 /* KentSimgeleriApp_TableView */;
+			targetProxy = 38C0E4C8298BC55F0056CBA5 /* PBXContainerItemProxy */;
+		};
+		38C0E4D3298BC55F0056CBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C0E4B0298BC55E0056CBA5 /* KentSimgeleriApp_TableView */;
+			targetProxy = 38C0E4D2298BC55F0056CBA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38C0E4BA298BC55E0056CBA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C0E4BB298BC55E0056CBA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38C0E4BF298BC55F0056CBA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C0E4C0298BC55F0056CBA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38C0E4D9298BC55F0056CBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38C0E4DA298BC55F0056CBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C0E4DC298BC55F0056CBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KentSimgeleriApp_TableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C0E4DD298BC55F0056CBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KentSimgeleriApp_TableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38C0E4DF298BC55F0056CBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KentSimgeleriApp_TableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KentSimgeleriApp_TableView";
+			};
+			name = Debug;
+		};
+		38C0E4E0298BC55F0056CBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KentSimgeleriApp_TableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KentSimgeleriApp_TableView";
+			};
+			name = Release;
+		};
+		38C0E4E2298BC55F0056CBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KentSimgeleriApp_TableView;
+			};
+			name = Debug;
+		};
+		38C0E4E3298BC55F0056CBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75CGNV7LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agah.KentSimgeleriApp-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KentSimgeleriApp_TableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C0E4AC298BC55E0056CBA5 /* Build configuration list for PBXProject "KentSimgeleriApp_TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C0E4D9298BC55F0056CBA5 /* Debug */,
+				38C0E4DA298BC55F0056CBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C0E4DB298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C0E4DC298BC55F0056CBA5 /* Debug */,
+				38C0E4DD298BC55F0056CBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C0E4DE298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C0E4DF298BC55F0056CBA5 /* Debug */,
+				38C0E4E0298BC55F0056CBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C0E4E1298BC55F0056CBA5 /* Build configuration list for PBXNativeTarget "KentSimgeleriApp_TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C0E4E2298BC55F0056CBA5 /* Debug */,
+				38C0E4E3298BC55F0056CBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38C0E4A9298BC55E0056CBA5 /* Project object */;
+}
